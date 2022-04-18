@@ -8,7 +8,9 @@ import { QuizData } from './components/QuizData';
 function App() {
     return (
         <div className="App">
-            <Quiz />
+            <div className="container">
+                <Quiz />
+            </div>
         </div>
     )
 }

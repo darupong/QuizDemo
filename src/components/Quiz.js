@@ -99,9 +99,9 @@ state = {
         }
                
         return (
-            <div>
+            <div className='container'>
                <h2>{question}</h2>
-                <span>{`Question ${currentIndex+1} of ${QuizData.length}`}</span>
+                <span>{`คำถาม ${currentIndex+1} ใน ${QuizData.length}`}</span>
                 {options.map(option => (  //for each option, new paragraph
                     <p key={option.id} 
                     className={`options ${userAnswer === option ? "selected" : null}`}
